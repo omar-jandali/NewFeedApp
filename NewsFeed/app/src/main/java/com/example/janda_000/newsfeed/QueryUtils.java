@@ -39,6 +39,7 @@ public class QueryUtils {
                 .appendQueryParameter("show-reference", "author")
                 .appendQueryParameter("api-key", "3535e17c-d9a9-4314-8b0e-2f902f37f4a1");
         String url = builder.build().toString();
+        Log.e("QueryUtils", "The following is the url" + url);
         return url;
     }
 
